@@ -19,6 +19,9 @@ main {
 body {
   color: var(--body);
 }
+.object-fit-contain{
+  object-fit: contain;
+}
 
 :root {
   --fs-12: 12px;
@@ -568,7 +571,7 @@ select:focus {
 
 .btn-main {
   background-color: #ffe700;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .btn-main:hover {
@@ -576,8 +579,8 @@ select:focus {
 }
 
 #contact .text h3 {
-  font-weight: lighter;
-  font-size: 50px;
+  font-weight: 200;
+  font-size: var(--fs-lg-50);
 }
 
 #contact .text p {
@@ -603,7 +606,9 @@ select:focus {
 }
 
 .company {
-  padding: 50px 0px;
+  margin: 0 auto;
+  width: 200px;
+  height: 80px;
 }
 
 .company img {
